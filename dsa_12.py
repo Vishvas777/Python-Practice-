@@ -12,7 +12,7 @@ def second_last(head):
     curr = head.next
 
     while curr.next is not None:
-        prev = curr
+        prev = curr                                                                                       
         curr = curr.next
 
     return prev.data
